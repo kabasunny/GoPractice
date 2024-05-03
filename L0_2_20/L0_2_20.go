@@ -16,7 +16,7 @@ func main() {
 	data := struct {
 		Name string
 	}{
-		Name: "Alice",
+		Name: "kabasunny",
 	}
 
 	err := tmpl.ExecuteTemplate(os.Stdout, "template1.html", data)
